@@ -45,5 +45,5 @@ jobs:
       - name: Upload msm8610_rock elf emmc_appsboot.mbn
         uses: actions/upload-artifact@v4
         with:
-          name: vela-emmc_apppsboot.mbn
+          name: rock-emmc_apppsboot.mbn
           path: build-msm8610_rock/emmc_appsboot.mbn
